@@ -17,7 +17,7 @@ def display_board
 end  
 
 def input_to_index(input)
-  if input.match?(/\d/) && input.between(1,9)
+  if input.match?(/\d/)
     input.to_i - 1 
   else 
     "invalid"
